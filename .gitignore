@@ -1,0 +1,74 @@
+＃此.gitignore文件应放置在Unity项目目录的根目录下
+＃
+＃从https://github.com/github/gitignore/blob/master/Unity.gitignore获取最新信息
+#
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+＃ MemoryCaptures可以得到尺寸过大。
+＃它们还可能包含极其敏感的数据
+[Mm]emoryCaptures/
+
+
+＃仅当相应资产也被忽略时，资产元数据才应被忽略
+!/[Aa]ssets/**/*.meta
+
+＃如果您希望忽略资产商店工具插件，请取消注释此行
+#[Aa]ssets/AssetStoreTools*
+
+＃自动生成的Jetbrains Rider插件
+[Aa]ssets/Plugins/Editor/JetBrains*
+
+＃ Visual Studio中的缓存目录
+.vs/
+
+＃摇篮缓存目录
+.gradle/
+
+＃自动生成的VS / MD / Consulo解决方案和项目文件
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+＃ Unity3D生成的元文件
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+＃在崩溃报告中Unity3D生成的文件
+sysinfo.txt
+
+＃构建
+# Builds
+*.apk
+*.unitypackage
+
+＃ Crashlytics生成的文件
+crashlytics-build.properties
+
+＃打包的寻址
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+＃临时自动生成的Android资产
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
